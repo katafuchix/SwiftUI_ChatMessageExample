@@ -11,6 +11,10 @@
 		318479C1296C3B0100A48A5F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318479C0296C3B0100A48A5F /* ContentView.swift */; };
 		318479C3296C3B0100A48A5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 318479C2296C3B0100A48A5F /* Assets.xcassets */; };
 		318479C6296C3B0100A48A5F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 318479C5296C3B0100A48A5F /* Preview Assets.xcassets */; };
+		318479CE296C3B6C00A48A5F /* ImagePicker+Extended.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318479CD296C3B6C00A48A5F /* ImagePicker+Extended.swift */; };
+		318479D1296C3BCD00A48A5F /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318479D0296C3BCD00A48A5F /* Message.swift */; };
+		318479D3296C3C3A00A48A5F /* View+Extended.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318479D2296C3C3A00A48A5F /* View+Extended.swift */; };
+		318479D6296C3F1E00A48A5F /* MessageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318479D5296C3F1E00A48A5F /* MessageViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		318479C0296C3B0100A48A5F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		318479C2296C3B0100A48A5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		318479C5296C3B0100A48A5F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		318479CD296C3B6C00A48A5F /* ImagePicker+Extended.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ImagePicker+Extended.swift"; sourceTree = "<group>"; };
+		318479D0296C3BCD00A48A5F /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		318479D2296C3C3A00A48A5F /* View+Extended.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extended.swift"; sourceTree = "<group>"; };
+		318479D5296C3F1E00A48A5F /* MessageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +59,9 @@
 		318479BD296C3B0100A48A5F /* ChatMessageExample */ = {
 			isa = PBXGroup;
 			children = (
+				318479D4296C3F1100A48A5F /* ViewModel */,
+				318479CF296C3BBB00A48A5F /* Model */,
+				318479CC296C3B5200A48A5F /* Extentions */,
 				318479BE296C3B0100A48A5F /* ChatMessageExampleApp.swift */,
 				318479C0296C3B0100A48A5F /* ContentView.swift */,
 				318479C2296C3B0100A48A5F /* Assets.xcassets */,
@@ -65,6 +76,31 @@
 				318479C5296C3B0100A48A5F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		318479CC296C3B5200A48A5F /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				318479CD296C3B6C00A48A5F /* ImagePicker+Extended.swift */,
+				318479D2296C3C3A00A48A5F /* View+Extended.swift */,
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+		318479CF296C3BBB00A48A5F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				318479D0296C3BCD00A48A5F /* Message.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		318479D4296C3F1100A48A5F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				318479D5296C3F1E00A48A5F /* MessageViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +174,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				318479C1296C3B0100A48A5F /* ContentView.swift in Sources */,
+				318479D1296C3BCD00A48A5F /* Message.swift in Sources */,
+				318479D3296C3C3A00A48A5F /* View+Extended.swift in Sources */,
 				318479BF296C3B0100A48A5F /* ChatMessageExampleApp.swift in Sources */,
+				318479D6296C3F1E00A48A5F /* MessageViewModel.swift in Sources */,
+				318479CE296C3B6C00A48A5F /* ImagePicker+Extended.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
